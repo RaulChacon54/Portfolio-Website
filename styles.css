@@ -3,13 +3,14 @@ body{
     margin: 0%;
     font-family: 'Kanit', 'Times New Roman', Times, serif;
     overflow-x: hidden;
+    background-color: #fff;
 }
 
 
 header {
     width: 100%;
     max-height: 5rem;
-    
+    background-color: #fff;
     margin-bottom: 1.5rem;
     box-shadow: 0 .25rem .5rem 0 rgba(0,0,0,.1);
     
@@ -21,7 +22,9 @@ header {
     display: flex;
     justify-content: space-between;
 }
-
+.header-container a {
+    color: #000;
+}
 .logo {
     max-width: 5rem;
     max-width: 5rem;
@@ -54,11 +57,6 @@ li {
     transition: background-color 0.3s ease;
     
 }
-
-a {
-    color: black;
-}
-
 li:hover {
     background-color: #f1f1f1;
     border-radius: 1rem;
@@ -68,6 +66,7 @@ li:hover {
     max-width: 100%;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 6rem;
     
 }
 
@@ -107,7 +106,7 @@ li:hover {
     width: 400px;
     height: 500px;
     margin-top: 4rem;
-    margin-right: 3rem;
+    margin-right: 7rem;
     box-shadow: 0 0 1rem 0 rgba(0,0,0,.5);
     border-radius: 10px;
 
