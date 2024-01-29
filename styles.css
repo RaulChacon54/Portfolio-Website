@@ -9,11 +9,17 @@ body{
 header {
     width: 100%;
     max-height: 5rem;
-    display: flex;
-    justify-content: space-between;
+    
     margin-bottom: 1.5rem;
     box-shadow: 0 .25rem .5rem 0 rgba(0,0,0,.1);
     
+}
+.header-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    max-height: 5rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
