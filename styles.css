@@ -7,11 +7,12 @@ body{
 }
 
 
+
 header {
     width: 100%;
     max-height: 5rem;
+    padding: .25rem 0;
     background-color: #fff;
-    margin-bottom: 1.5rem;
     box-shadow: 0 .25rem .5rem 0 rgba(0,0,0,.1);
     
 }
@@ -19,35 +20,20 @@ header {
     margin: 0 auto;
     max-width: 1200px;
     max-height: 5rem;
-    display: flex;
-    justify-content: space-between;
 }
 .header-container a {
     color: #000;
 }
-.logo {
-    max-width: 5rem;
-    max-width: 5rem;
-    margin-left: 1rem;
-}
-
-.logop {
-    width: 100%;
-    height: 100%;
-}
-
 nav {
-    display: flex;
-    justify-content: right;
-    margin-right: 1rem;
-    
+    margin: auto;
 }
 
 ul {
     list-style: none;
     font-size: 1.25rem;
     text-wrap: nowrap;
-    
+    display: flex;
+    justify-content: space-around;
 }
 
 li {
@@ -123,20 +109,21 @@ li:hover {
 
 
 
-
+.skillhead, .projects-heading{
+    color: #94a8ff;
+    font-size: 2rem;
+}
 
 #skills {
     display: inline-block;
     width: 100%;
     height: 22rem;
-    background-color: #f1f1f1;
+    background-color: #dddddd;
     box-shadow: 0 0 1rem 0 rgba(0,0,0,.2);
 }
 .skillhead {
     margin-top: 2%;
-      
     text-align: center;
-    font-size: 2rem;
 }
 
 .all-skill-containers {
@@ -185,7 +172,6 @@ li:hover {
 .projects-heading {
     margin-top: 7rem;
     text-align: center;
-    font-size: 1.5rem;
 }
 
 .projects-container{
