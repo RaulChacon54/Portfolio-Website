@@ -97,10 +97,8 @@ li:hover {
 .ppcontainer {
     width: 400px;
     height: 500px;
-    margin-top: auto;
     box-shadow: 0 0 1rem 0 rgba(0,0,0,.5);
     border-radius: 10px;
-
 }
 .profile-picture {
     width: 100%;
