@@ -204,55 +204,9 @@ li:hover {
     object-fit: fill;
     border-radius: 10px;
 }
-.project::after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    white-space: pre; /* Preserve line breaks and spaces */
-    pointer-events: none; /* Prevent the pseudo-element from blocking clicks */
-}
-
-
-
-
-
-
-
-
-.project:hover::after {
-    opacity: 1;
-}
-
 .project:hover {
     box-shadow: 0 0 1rem 0 rgba(0,0,0,1);
 }
-.project:hover .github-image {
-    opacity: 1;
-}
-
-.pone::after {
-    content: "Local BarberShop"; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    color: white; 
-}
-
-.ptwo::after {
-    content: "Random Website"; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;  
-    color: white;
-}
-
 
 
 
