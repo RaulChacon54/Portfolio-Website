@@ -41,7 +41,7 @@ li {
     margin-right: 1rem;
     padding: 0.5rem 1rem;
     transition: background-color 0.3s ease;
-    
+    border-radius: 1rem;
 }
 li:hover {
     background-color: #727272;
@@ -273,9 +273,10 @@ footer a {
     font-size: 1rem;
     padding: 0.5rem 1rem;
     color: #fff;
+    border-radius: 1rem;
 }
 footer a:hover {
-    background-color: #b1b1b1;
+    background-color: #949494;
     color: #333;
     border-radius: 1rem;
     
