@@ -334,14 +334,27 @@ footer a:hover {
 }
 
 @media screen and (max-width: 1024px){
-    #hello {
-        max-height: 40rem;
+
+    .introText h2 {
+        font-size: 2rem;
+        line-height: 1.7rem;
+        margin-bottom: 1rem;
     }
-    .introText {
-        margin-left: 2%;
-        font-size: 1.75rem;
+    .introText h1 {
+        font-size: 2.25rem;
         line-height: 2rem;
+        margin-bottom: .75rem;
     }
+    .introText p {
+        margin-top: .5rem;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+
+
+
+
     .ppcontainer {
         width: 30%;
         height: 50%;
