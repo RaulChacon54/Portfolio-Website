@@ -64,15 +64,17 @@ li:hover {
 
 
 #hello {
+    padding-top: 5rem;
     max-width: 100%;
 }
 .hello-container {
-    max-width: 70%;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     gap: 10%;
     padding: 4rem 0;
-    margin: auto;
+    margin-right: ;
 }
 
 .introText {
@@ -107,8 +109,9 @@ li:hover {
     padding: 0;
 }
 .profile-picture {
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    min-width: 70%;
     object-fit: fill;
     border-radius: 10px;
     box-shadow: 0 0 1rem 0 rgba(0,0,0,.5);
