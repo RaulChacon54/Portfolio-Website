@@ -110,7 +110,7 @@ li:hover {
 .profile-picture {
     max-width: 100%;
     height: auto;
-    min-width: 70%;
+    min-width: 300px;
     object-fit: fill;
     border-radius: 10px;
     box-shadow: 0 0 1rem 0 rgba(0,0,0,.5);
@@ -336,20 +336,37 @@ footer a:hover {
 }
 /* 1356px is where picture wraps and moves underneath introText*/
 @media screen and (max-width: 1356px){
-    .hello-container {
-        margin-top: 2.5rem;
-    }
     .introText {
-        margin-bottom: 2.5rem;
+        margin-bottom: 3rem;
     }
+    .introText h2 {
+        font-size: 2.5rem;
+        line-height: 2rem;
+        margin-bottom: 1rem;
+    }
+    .introText h1 {
+        font-size: 3rem;
+        line-height: 2rem;
+        margin-bottom: .75rem;
+    }
+    .introText p {
+        margin-top: .75rem;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    
 }
 
 
 
 
 
-@media screen and (max-width: 1024px){
-
+@media screen and (max-width: 1241px){
+    .hello-container {
+        margin-top: 0rem 1rem;
+        padding-top: 0;
+    }
     .introText h2 {
         font-size: 2rem;
         line-height: 1.7rem;
