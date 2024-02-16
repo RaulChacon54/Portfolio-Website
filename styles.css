@@ -74,7 +74,6 @@ li:hover {
     align-items: center;
     gap: 10%;
     padding: 4rem 0;
-    margin-right: ;
 }
 
 .introText {
@@ -335,6 +334,19 @@ footer a:hover {
     }
     
 }
+/* 1356px is where picture wraps and moves underneath introText*/
+@media screen and (max-width: 1356px){
+    .hello-container {
+        margin-top: 2.5rem;
+    }
+    .introText {
+        margin-bottom: 2.5rem;
+    }
+}
+
+
+
+
 
 @media screen and (max-width: 1024px){
 
